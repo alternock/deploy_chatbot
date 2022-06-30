@@ -2,7 +2,7 @@
 const axios = require("axios");
 const TeleBot = require('telebot');
 //
-let SECRET_TOKEN = require("./config/secret_token");
+let SECRET_TOKEN = require("./config/secret");
 let {
     TOKEN
 } = SECRET_TOKEN;
